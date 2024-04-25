@@ -1,0 +1,13 @@
+{
+  "name": "http-rest-api",
+  "version": "1.0.0",
+  "description": "This is a simple CRUD (Create, Read, Update, Delete) API server implemented in Node.js using the HTTP module. The server manages a collection of products and provides endpoints to perform CRUD operations on these products.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

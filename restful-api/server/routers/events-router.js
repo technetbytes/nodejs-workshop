@@ -33,6 +33,11 @@ eventsRouter.get('/:id', function (req, res) {
     res.json(event || {});
 });
 
+eventsRouter.get('/:id/:date', function (req, res) {
+    var event = req.event;
+    res.json(event || {});
+});
+
 eventsRouter.post('/', updateId, function (req, res) {
     var event = req.body;
 
